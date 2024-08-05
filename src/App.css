@@ -1,0 +1,44 @@
+body {
+  background-color: rgb(0, 0, 0);
+}
+
+.app {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  
+  padding: 10px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar ul li {
+  margin: 0;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: block;
+}
+
+.navbar ul li a.active {
+  background-color: #FF4000;
+  border-radius: 5px;
+}
+
+.navbar ul li a:hover {
+  background-color: black;
+  border-radius: 5px;
+}
+
+
+

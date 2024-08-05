@@ -1,0 +1,37 @@
+/* About.css */
+.about {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .about h1, .about h2 {
+    color: #E35A00; /* Your brand color */
+  }
+  
+  .about p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .skills-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .skill-item {
+    flex: 1 1 200px;
+    text-align: center;
+  }
+  
+  .skill-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+  }
+  
+  .skill-item p {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
