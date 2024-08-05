@@ -1,11 +1,11 @@
 import "./Home.css";
 import ChatBox from "./ChatBox"; // Corrected import statement
-import Footer from './Footer'; 
+import Footer from "./Footer";
 
 export default function Home() {
   return (
     <>
-      <div className="home" >
+      <div className="home">
         <section className="intro" id="name">
           <h1>Welcome to Humphrey Omondi's Portfolio</h1>
           <p>
@@ -21,7 +21,7 @@ export default function Home() {
           <div className="service-list">
             <div className="service-item">
               <h3>Web Development</h3>
-              <img src="path_to_image1.jpg" alt="Web Development" />
+              <img src="./public/HTML_image.jpeg" alt="Web Development" />
               <p>
                 Building modern, responsive websites using the latest web
                 technologies. I specialize in front-end development with a focus
@@ -30,7 +30,7 @@ export default function Home() {
             </div>
             <div className="service-item">
               <h3>Graphic Design</h3>
-              <img src="path_to_image2.jpg" alt="Graphic Design" />
+              <img src="./public/HTML_image.jpeg" alt="Graphic Design" />
               <p>
                 Crafting visually stunning designs that capture attention and
                 communicate effectively. I have experience with tools like Adobe
@@ -39,7 +39,7 @@ export default function Home() {
             </div>
             <div className="service-item">
               <h3>WordPress Development</h3>
-              <img src="path_to_image3.jpg" alt="WordPress Development" />
+              <img src="./public/HTML_image.jpeg" alt="WordPress Development" />
               <p>
                 Designing and developing custom WordPress websites that are easy
                 to manage and update. From theme customization to plugin
@@ -59,11 +59,61 @@ export default function Home() {
             Get in Touch
           </button>
         </section>
+        <section className="social-icons">
+          <div className="icons">
+            <a
+              href="https://github.com/yourusername"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="icon"
+            >
+              <i className="fab fa-github"></i>
+            </a>
+            <a
+              href="https://twitter.com/yourusername"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="icon"
+            >
+              <i className="fab fa-twitter"></i>
+            </a>
+            <a
+              href="https://www.facebook.com/yourusername"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="icon"
+            >
+              <i className="fab fa-facebook"></i>
+            </a>
+            <a
+              href="https://www.instagram.com/yourusername"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="icon"
+            >
+              <i className="fab fa-instagram"></i>
+            </a>
+            <a
+              href="https://www.tiktok.com/@yourusername"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="icon"
+            >
+              <i className="fab fa-tiktok"></i>
+            </a>
+            <a
+              href="https://wa.me/yourphonenumber"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="icon"
+            >
+              <i className="fab fa-whatsapp"></i>
+            </a>
+          </div>
+        </section>
         <ChatBox /> {/* Chatbox Component */}
-      
       </div>
       <Footer />
     </>
-    
   );
 }

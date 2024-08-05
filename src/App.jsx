@@ -5,6 +5,8 @@ import About from './About';
 import Projects from './Projects';
 import Contact from './Contact';
 import './App.css';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
 
 export default function App() {
   return (

@@ -1,3 +1,30 @@
 body {
     color: white;
 }
+/* social media links and icon */
+.social-icons {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .social-icons h2 {
+    margin-bottom: 15px;
+  }
+  
+  .icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .icon {
+    font-size: 24px;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .icon:hover {
+    color: #0073e6; /* Change to your preferred hover color */
+  }
+  
