@@ -25,6 +25,28 @@ body {
   }
   
   .icon:hover {
-    color: #0073e6; /* Change to your preferred hover color */
+    color: #FF4000; /* Change to your preferred hover color */
   }
+  .service-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+    align-items: center;
+
+    .service-item {
+      margin-left: 15px;
+      margin: 10px;
+    }
+  }
+
+  #imageTwo {
+    width: 450px;
+    height: 400px;
+  }
+
+  #imageOne, #imageThree {
+    width: 400px;
+    height: 300px;
   
+  }

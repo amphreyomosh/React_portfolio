@@ -44,7 +44,7 @@ function Contact() {
       <section className="social-icons">
         <div className="icons">
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/amphreyomosh"
             target="_blank"
             rel="noopener noreferrer"
             className="icon"
@@ -52,7 +52,7 @@ function Contact() {
             <i className="fab fa-github"></i>
           </a>
           <a
-            href="https://twitter.com/yourusername"
+            href="https://x.com/harmoo530"
             target="_blank"
             rel="noopener noreferrer"
             className="icon"
@@ -60,7 +60,7 @@ function Contact() {
             <i className="fab fa-twitter"></i>
           </a>
           <a
-            href="https://www.facebook.com/yourusername"
+            href="https://www.facebook.com/river.happy.5/"
             target="_blank"
             rel="noopener noreferrer"
             className="icon"
@@ -68,7 +68,7 @@ function Contact() {
             <i className="fab fa-facebook"></i>
           </a>
           <a
-            href="https://www.instagram.com/yourusername"
+            href="https://www.instagram.com/its__hamphrey/"
             target="_blank"
             rel="noopener noreferrer"
             className="icon"
@@ -76,7 +76,7 @@ function Contact() {
             <i className="fab fa-instagram"></i>
           </a>
           <a
-            href="https://www.tiktok.com/@yourusername"
+            href="https://www.tiktok.com/@.harmo"
             target="_blank"
             rel="noopener noreferrer"
             className="icon"

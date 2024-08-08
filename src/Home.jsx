@@ -7,7 +7,8 @@ export default function Home() {
     <>
       <div className="home">
         <section className="intro" id="name">
-          <h1>Welcome to Humphrey Omondi's Portfolio</h1>
+          <h1>Humphrey Omondi</h1>
+          <h1>Web Developer</h1>
           <p>
             I'm a passionate and versatile Web Developer & Designer with a keen
             eye for detail and a love for crafting beautiful, functional
@@ -17,11 +18,13 @@ export default function Home() {
           </p>
         </section>
         <section className="services">
-          <h2>What I Offer</h2>
           <div className="service-list">
             <div className="service-item">
-              <h3>Web Development</h3>
-              <img src="./public/HTML_image.jpeg" alt="Web Development" />
+              <img
+                src="./public/HTML_image.jpeg"
+                id="imageOne"
+                alt="Web Development"
+              />
               <p>
                 Building modern, responsive websites using the latest web
                 technologies. I specialize in front-end development with a focus
@@ -29,8 +32,11 @@ export default function Home() {
               </p>
             </div>
             <div className="service-item">
-              <h3>Graphic Design</h3>
-              <img src="./public/HTML_image.jpeg" alt="Graphic Design" />
+              <img
+                src="./public/HTML_image.jpeg"
+                id="imageTwo"
+                alt="Graphic Design"
+              />
               <p>
                 Crafting visually stunning designs that capture attention and
                 communicate effectively. I have experience with tools like Adobe
@@ -38,8 +44,11 @@ export default function Home() {
               </p>
             </div>
             <div className="service-item">
-              <h3>WordPress Development</h3>
-              <img src="./public/HTML_image.jpeg" alt="WordPress Development" />
+              <img
+                src="./public/HTML_image.jpeg"
+                id="imageThree"
+                alt="WordPress Development"
+              />
               <p>
                 Designing and developing custom WordPress websites that are easy
                 to manage and update. From theme customization to plugin

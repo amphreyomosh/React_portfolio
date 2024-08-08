@@ -3,24 +3,26 @@ body {
 }
 
 .app {
-  font-family: Arial, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .navbar {
-  
   padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .navbar ul {
   list-style-type: none;
-  margin: 0;
   padding: 0;
   display: flex;
-  justify-content: space-around;
+  justify-content: end;
+  margin: 0;
 }
 
 .navbar ul li {
-  margin: 0;
+  margin: 25px;
 }
 
 .navbar ul li a {
@@ -31,7 +33,7 @@ body {
 }
 
 .navbar ul li a.active {
-  background-color: #FF4000;
+  background-color: #ff4000;
   border-radius: 5px;
 }
 
@@ -40,5 +42,71 @@ body {
   border-radius: 5px;
 }
 
+/* Hamburger menu styles */
+.hamburger {
+  flex-direction: column;
+  cursor: pointer;
+}
 
+#bar {
+  width: 35px;
+  border-radius: 5px;
+}
 
+/* Slide-in menu styles */
+.nav-menu.active {
+  display: flex;
+}
+
+/* Responsive design for screens smaller than 678px */
+@media (max-width: 678px) {
+  .navbar ul {
+    display: none; /* Hide the regular menu */
+  }
+
+  .hamburger {
+    display: flex; /* Show the hamburger icon */
+  }
+
+  .nav-menu {
+    display: none;
+    flex-direction: column;
+  }
+
+  .nav-menu.active {
+    display: flex;
+  }
+
+  .nav-menu li {
+    margin: 10px 0;
+  }
+
+  .nav-menu li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    background-color: black;
+    border-radius: 4px;
+    text-align: center;
+  }
+
+  .nav-menu li a.active {
+    background-color: #ff4000;
+  }
+  .nav-menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 250px;
+    background-color: black;
+    padding: 2px;
+  }
+  .hamburger div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px 0;
+  }
+}

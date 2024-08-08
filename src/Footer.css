@@ -2,7 +2,8 @@
 .footer {
     background-color: #FF4000; /* Background color */
     color: white; /* Text color */
-    padding: 20px;
+    padding: 60px 0 60px 0;
+    margin: 0;
     text-align: center;
     width: 100%;
   }
