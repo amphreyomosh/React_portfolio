@@ -91,6 +91,14 @@ function Contact() {
           >
             <i className="fab fa-whatsapp"></i>
           </a>
+          <a
+            href="https://www.linkedin.com/in/humphrey-odhiambo/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="icon"
+          >
+            <i className="fab fa-linkedin"></i>
+          </a>
         </div>
       </section>
       <ChatBox />

@@ -18,14 +18,18 @@ body {
   }
   
   .icon {
-    font-size: 24px;
+    font-size: 26px;
     color: #333;
+    margin: 5px;
     text-decoration: none;
-    transition: color 0.3s ease;
+    
   }
   
   .icon:hover {
     color: #FF4000; /* Change to your preferred hover color */
+    transition: .5s;
+    transform: scale(1.2);
+    
   }
   .service-list {
     display: flex;
@@ -38,6 +42,7 @@ body {
       margin-left: 15px;
       margin: 10px;
     }
+  
   }
 
   #imageTwo {
